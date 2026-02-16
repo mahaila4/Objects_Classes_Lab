@@ -22,4 +22,4 @@ A C++ class for simulating basic banking operations within a management system.
 | `getBalance() const`                                 | `double`      | Returns the current balance.                  |
 | `setAccountHolderName(string)`                       | `void`        | Updates the holder's name.                    |
 | `deposit(double)`                                    | `void`        | Adds funds if the amount is positive.         |
-| `withdraw(double)`                                   | `void`        | Subtracts funds if balance is sufficient.     |
+| `withdraw(double)`                                   | `void`        | Subtracts funds if balance has enough funds.     |
